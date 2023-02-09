@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --yellow: hsl(40deg, 97%, 58%);
+    --dark-navy: hsl(216deg, 17%, 35%);
+    --dim-grey: hsl(217deg, 12%, 62%);
+    --light-grey: hsl(212deg, 41%, 93%);
+    --snow: hsl(214deg, 37%, 96%);
+    --light-yellow: hsl(39deg, 100%, 94%);
+  }
+}
