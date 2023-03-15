@@ -23,6 +23,9 @@ module.exports = {
       mobileAboutHeader: "url('../assets/images/mobile-about-header.png')",
       careersHeader: "url('../assets/images/careers-header.png')",
       mobileCareersHeader: "url('../assets/images/mobile-careers-header.png')",
+      locationHeader: "url('../assets/images/location-header.png')",
+      mobileLocationHeader:
+        "url('../assets/images/mobile-location-header.png')",
     },
     fontFamily: {
       lexend: ["Lexend Deca", "sans-serif"],

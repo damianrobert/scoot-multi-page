@@ -53,26 +53,24 @@ function Navbar() {
 
         <div className="hidden md:inline-block w-fit mx-auto">
           <ul>
-            <Link
-              href="/About"
-              className="inline-block text-base font-bold text-dimGrey 
-          mr-8 hover:text-yellow cursor-pointer"
-            >
-              About
-            </Link>
             <li
               className="inline-block text-base font-bold text-dimGrey 
           mr-8 hover:text-yellow cursor-pointer"
             >
-              Location
+              <Link href="/About">About</Link>
             </li>
-            <Link
-              href="/Careers"
+            <li
               className="inline-block text-base font-bold text-dimGrey 
           mr-8 hover:text-yellow cursor-pointer"
             >
-              Careers
-            </Link>
+              <Link href="/Location">Location</Link>
+            </li>
+            <li
+              className="inline-block text-base font-bold text-dimGrey 
+          mr-8 hover:text-yellow cursor-pointer"
+            >
+              <Link href="/Careers">Careers</Link>
+            </li>
           </ul>
         </div>
 
@@ -95,17 +93,14 @@ function Navbar() {
           }
         >
           <ul className="mt-12">
-            <Link
-              href="/About"
-              className="text-lightGrey text-[1.125rem] font-bold my-4"
-            >
-              About
-            </Link>
             <li className="text-lightGrey text-[1.125rem] font-bold my-4">
-              Location
+              <Link href="/About">About</Link>
             </li>
             <li className="text-lightGrey text-[1.125rem] font-bold my-4">
-              Careers
+              <Link href="/Location">Location</Link>
+            </li>
+            <li className="text-lightGrey text-[1.125rem] font-bold my-4">
+              <Link href="/Careers">Careers</Link>
             </li>
           </ul>
 
@@ -120,7 +115,7 @@ function Navbar() {
           className={
             menu
               ? `absolute w-full min-h-screen left-0 top-[3.8125rem] bg-[#000000b1]
-               z-[1] md:hidden`
+               z-[2] md:hidden`
               : `hidden`
           }
         ></div>

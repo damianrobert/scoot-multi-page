@@ -12,7 +12,7 @@ const CareersHeader = () => {
     <div>
       <div
         className="bg-mobileCareersHeader max-w-[90rem] mx-auto md:bg-careersHeader h-40
-       bg-no-repeat bg-cover relative"
+       bg-no-repeat bg-cover relative md:h-[12.5rem]"
       >
         <div
           className="w-full h-full absolute top-0 left-0 bg-[#2f3b59ac] 
@@ -20,19 +20,17 @@ const CareersHeader = () => {
         ></div>
 
         <div className="w-full h-full absolute top-0 left-0">
-          <div>
-            <div className="w-[19.4375rem] mx-auto pt-14 md:ml-10 md:mr-0">
-              <h1
-                className="text-center font-bold text-[2.5rem] leading-[3rem]
+          <div className="w-[19.4375rem] mx-auto pt-14 md:ml-10 md:mr-0">
+            <h1
+              className="text-center font-bold text-[2.5rem] leading-[3rem]
               text-white  md:text-[3.5rem]"
-              >
-                Careers
-              </h1>
-            </div>
+            >
+              Careers
+            </h1>
+          </div>
 
-            <div className="hidden md:block absolute right-0 bottom-[3rem]">
-              <Image src={header_white_circles} alt="/" />
-            </div>
+          <div className="hidden md:block absolute right-0 bottom-[3rem]">
+            <Image src={header_white_circles} alt="/" />
           </div>
         </div>
       </div>
@@ -63,7 +61,7 @@ const CareersHeader = () => {
           </div>
         </div>
 
-        <div className="w-[19.4375rem] md:w-[35.8125rem] mx-auto mt-14">
+        <div className="w-[19.4375rem] md:w-[35.8125rem] mx-auto mt-14 lg: px-6">
           <h2
             className="text-[2rem] leading-8 font-bold text-darkNavy
            text-center tracking-[-1.42857px] md:text-5xl md:leading-[3rem]

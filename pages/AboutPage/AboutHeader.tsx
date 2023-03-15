@@ -23,19 +23,17 @@ function AboutHeader() {
         ></div>
 
         <div className="absolute w-full h-full top-0 left-0">
-          <div>
-            <div className="w-[19.4375rem] mx-auto pt-14 md:ml-10 md:mr-0">
-              <h1
-                className="text-center text-white text-[2.5rem] md:text-[3.5rem]
+          <div className="w-[19.4375rem] mx-auto pt-14 md:ml-10 md:mr-0">
+            <h1
+              className="text-center text-white text-[2.5rem] md:text-[3.5rem]
               font-bold"
-              >
-                About
-              </h1>
-            </div>
+            >
+              About
+            </h1>
+          </div>
 
-            <div className="hidden md:block absolute bottom-[4.5rem] right-0">
-              <Image src={header_white_circles} alt="/" />
-            </div>
+          <div className="hidden md:block absolute bottom-[4.5rem] right-0">
+            <Image src={header_white_circles} alt="/" />
           </div>
         </div>
       </div>

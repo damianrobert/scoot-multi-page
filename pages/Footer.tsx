@@ -46,11 +46,13 @@ function Footer() {
       </div>
 
       <div
-        className="bg-[#333A44] py-16 md:py-8 md:px-5 md:flex 
+        className="bg-[#333A44] py-16 md:py-8 md:px-12 md:flex 
       md:justify-between"
       >
         <div className="w-fit mx-auto md:m-0">
-          <Image src={footer_logo} alt="/" />
+          <Link href="/">
+            <Image src={footer_logo} alt="/" />
+          </Link>
         </div>
 
         <div
@@ -64,12 +66,13 @@ function Footer() {
           >
             About
           </Link>
-          <p
+          <Link
+            href="/Location"
             className="text-dimGrey text-lg font-bold cursor-pointer 
           hover:text-yellow text-center"
           >
             Location
-          </p>
+          </Link>
           <Link
             href="/Careers"
             className="text-dimGrey text-lg font-bold cursor-pointer 
